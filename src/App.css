@@ -1,0 +1,156 @@
+.cart-comp{
+  display: flex;
+  justify-content: end;
+  margin-top: -60px;
+  color: rgb(253, 152, 152);
+  margin-right: 40px;
+ }
+
+ .top-area{
+  display: flex;
+  color: chocolate;
+ }
+ .top-cont{
+  margin-left: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: rgb(196, 91, 39);
+  padding: 10px;
+  font-size: medium;
+ }
+ .top-cont:active{
+  color: red;
+ }
+ .cart-area{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+   margin: 15px;
+   margin-left: 125px;
+ }
+ 
+ .card-component{
+    display: flex ;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    border : 1px solid chocolate;
+    border-radius : 5px;
+    justify-content: stretch;
+    padding : 5px;
+ }
+ 
+ img{
+   width: 250px;
+   height: 130px;
+   object-fit:contain;
+   border-radius: 1px solid grey;
+ }
+
+ hr{
+  background-color: black;
+ }
+ 
+ .cart-btn{
+   padding : 7px;
+   width: max-content;
+   margin: 0 auto;
+   cursor: pointer;
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 7px;
+ }
+
+ .cart-btn:hover{
+  background-color: rgb(13, 12, 12);
+  color: white;
+ }
+
+ .price{
+  margin-top: 3px;
+  color: green;
+ }
+
+ .pro-name{
+  margin-bottom: 10px;
+ }
+
+ .price,.pro-name{
+  margin-left: 80px;
+ }
+ 
+.banner-area{
+  margin-top: -100px;
+  height: 400px;
+  width: 100%;
+  background-color: rgb(207, 156, 120);
+}
+.banner-txt{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.bottom-area{
+  height: 300px;
+  width: 100%;
+  background-color: rgb(207, 156, 120);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width:1065px) and (max-width:1280px) {
+    .cart-area{
+      margin-left: 180px;
+    }
+}
+
+@media screen and (min-width:825px) and (max-width:1005px) {
+  .cart-area{
+    margin-left:190px ;
+  }
+}
+
+@media screen and (min-width:590px) and (max-width:705px) {
+    .cart-area{
+      margin-left: 200px;
+    }
+}
+
+@media screen and (min-width:410px) and (max-width:460px) {
+  .cart-area{
+    margin-left: 90px;
+  }
+}
+
+@media screen and (min-width:200px) and (max-width:410px) {
+  .cart-area{
+    margin-left: 75px;
+  }
+}
+
+@media screen and (min-width:455px) and (max-width:510px) {
+  .cart-comp{
+    margin-left: 200px;
+    margin-right: 2px ;
+  }
+}
+
+@media screen and (min-width:200px) and (max-width:455px) {
+  .top-area{
+    display: block;
+  
+  }
+
+  .top-cont{
+    display: flex;
+    flex-direction: column;
+    margin-left: -7px;
+  }
+}
